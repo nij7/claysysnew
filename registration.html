@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Registration Form</title>
+<link rel="stylesheet" href="registration.css">
+</head>
+<body>
+    <header>
+        <div class="container1">
+            <div id="logo">
+                <img src="logo2.png" alt="Logo">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="aboutus.html">About Us</a></li>
+                    <li><a href="login.html">Login</a></li>
+                    <li><a href="#">Registration</a></li>
+                    <li><a href="contactus.html">Contact Us</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+<div class="container">
+    <h2>Registration Form</h2>
+    <form id="registrationForm">
+        <div class="form-group">
+            <label for="firstName">First name *</label>
+            <input type="text" id="firstName" name="firstName" required>
+        </div>
+        <div class="form-group">
+            <label for="lastName">Last name *</label>
+            <input type="text" id="lastName" name="lastName" required>
+        </div>
+        <div class="form-group">
+            <label for="dob">Date of birth *</label>
+            <input type="date" id="dob" name="dob" required>
+        </div>
+        <div class="form-group">
+            <label for="age">Age *</label>
+            <input type="number" id="age" name="age" required readonly>
+        </div>
+        <div class="form-group1">
+            <label>Gender * :</label>
+            <input type="radio" id="male" name="gender" value="male" required>
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label>
+        </div>
+        <div class="form-group">
+            <label for="phone">Phone number *</label>
+            <input type="text" id="phone" name="phone" required>
+        </div>
+        <div class="form-group">
+            <label for="email">Email address *</label>
+            <input type="email" id="email" name="email" required>
+        </div>
+        <div class="form-group">
+            <label for="address">Address *</label>
+            <textarea id="address" name="address" rows="4" required></textarea>
+        </div>
+        <div class="form-group">
+            <label for="state">State *</label>
+            <select id="state" name="state" required>
+                <option value="">Select state</option>
+                <option value="kerala">Kerala</option>
+                <option value="tamilnadu">Tamil Nadu</option>
+                <option value="karnataka">Karnataka</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="city">City *</label>
+            <select id="city" name="city" required>
+                <option value="">Select city</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="username">Username *</label>
+            <input type="text" id="username" name="username" required>
+        </div>
+        <div class="form-group">
+            <label for="password">Password *</label>
+            <input type="password" id="password" name="password" required>
+            <small id="passwordHelp" class="form-text text-muted"></small>
+        </div>
+        <div class="form-group">
+            <label for="confirmPassword">Confirm password *</label>
+            <input type="password" id="confirmPassword" name="confirmPassword" required>
+        </div>
+        <button type="submit">Submit</button>
+    </form>
+</div>
+<script src="registration.js"></script>
+<footer>
+    <p>&copy; 2024 Your Company. All rights reserved.</p>
+  </footer>
+</body>
+</html>

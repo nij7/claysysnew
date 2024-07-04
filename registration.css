@@ -1,0 +1,140 @@
+
+body {
+    font-family: Arial;
+    background-color: lightcyan;
+  }
+  
+  .container1 {
+    padding: 0;
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+  }
+  
+  .container1 img {
+    width: 40px;
+    height: 40px;
+  }
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  header {
+    margin-bottom: 30px;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+  }
+  
+  header #logo {
+    float: left;
+    width: 10px;
+  }
+  
+  header nav {
+    float: right;
+    margin-top: 15px;
+  }
+  
+  header nav ul {
+    list-style-type: none;
+  }
+  
+  header nav ul li {
+    display: inline;
+    margin-left: 20px;
+  }
+  
+  header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  header nav ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  .container {
+    margin: 40px;
+    max-width: 600px;
+    margin-top: 5%;
+    margin: 0 auto;
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px black;
+  }
+  
+  .form-group1 {
+    font-weight: bold;
+    padding: 12px;
+    margin-bottom: 10px;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .form-group input,
+  .form-group select,
+  .form-group textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid grey;
+    border-radius: 4px;
+    font-size: 16px;
+    box-sizing: border-box;
+  }
+  
+  .form-group textarea {
+    resize: vertical;
+  }
+  
+  button {
+    background-color: dodgerblue;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+  }
+  
+  button:hover {
+    background-color: blue;
+  }
+  
+  button:focus {
+    outline: none;
+  }
+  
+  #passwordHelp {
+    color: red;
+  }
+  
+  footer {
+    margin-top: 30px;
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    width: 100%;
+  }
+  
+  /* validation */
+  input.valid, textarea.valid, select.valid {
+    border-color: green;
+  }
+  
+  input.invalid, textarea.invalid, select.invalid {
+    border-color: red;
+  }
+  
